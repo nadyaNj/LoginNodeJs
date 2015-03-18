@@ -1,0 +1,10 @@
+extends layout
+
+block content
+
+    div.content
+        h1 My Site
+        form(method='post')
+            input(name='userName', placeholder='Username')#userName.userName
+            input(name='password',  placeholder='Password')#password.password
+            input(value='Login', type='submit' )#loginButton.loginButton
